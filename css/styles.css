@@ -383,6 +383,53 @@ button {
 .team-social-link:focus .team-social-icon {
   fill: #ffffff;
 }
+
+/*----------------------------CLIENTS----------------*/
+
+.clients-title {
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basic-text);
+  margin-bottom: 50px;
+}
+
+.clients {
+  padding: 96px 215px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.clients-item {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-right: 30px;
+}
+
+.clients-item:last-child {
+  margin-right: 0;
+}
+
+.clients-icon {
+  fill: #afb1b8;
+}
+
+.clients-item svg:hover,
+.clients-item:hover {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
+.clients-list:focus {
+  border-color: tomato;
+}
+
 /*----------------------------PORTFOLIO----------------*/
 
 .header {
